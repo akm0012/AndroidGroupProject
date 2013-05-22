@@ -10,24 +10,283 @@ package edu.auburn.eng.csse.comp3710.group3.project;
 public final class R {
     public static final class attr {
     }
+    public static final class color {
+        public static final int black=0x7f070004;
+        public static final int darkBlue=0x7f070002;
+        public static final int green=0x7f070005;
+        public static final int lightBlue=0x7f070000;
+        public static final int notAsLightBlue=0x7f070001;
+        public static final int red=0x7f070003;
+    }
+    public static final class dimen {
+        /**  Default screen margins, per the Android Design guidelines. 
+
+         Customize dimensions originally defined in res/values/dimens.xml (such as
+         screen margins) for sw720dp devices (e.g. 10" tablets) in landscape here.
+    
+         */
+        public static final int activity_horizontal_margin=0x7f050000;
+        public static final int activity_vertical_margin=0x7f050001;
+    }
     public static final class drawable {
-        public static final int ic_launcher=0x7f020000;
+        public static final int aspirin=0x7f020000;
+        public static final int aspirin3d=0x7f020001;
+        public static final int bloodpressure=0x7f020002;
+        public static final int bloodpressure1=0x7f020003;
+        public static final int chol1=0x7f020004;
+        public static final int chol2=0x7f020005;
+        public static final int educate=0x7f020006;
+        public static final int education_icon=0x7f020007;
+        public static final int ekg=0x7f020008;
+        public static final int ekg_s01=0x7f020009;
+        public static final int ekg_s02=0x7f02000a;
+        public static final int ekg_s03=0x7f02000b;
+        public static final int ekg_s04=0x7f02000c;
+        public static final int ekg_s05=0x7f02000d;
+        public static final int ekg_s06=0x7f02000e;
+        public static final int ekg_s07=0x7f02000f;
+        public static final int ekg_s08=0x7f020010;
+        public static final int ekg_s09=0x7f020011;
+        public static final int ekg_s10=0x7f020012;
+        public static final int ekg_s11=0x7f020013;
+        public static final int ekg_s12=0x7f020014;
+        public static final int ekg_s13=0x7f020015;
+        public static final int ekg_s14=0x7f020016;
+        public static final int ekg_s15=0x7f020017;
+        public static final int ekg_s16=0x7f020018;
+        public static final int ekg_s17=0x7f020019;
+        public static final int ekg_s18=0x7f02001a;
+        public static final int ekg_s19=0x7f02001b;
+        public static final int hamburger_menu_small=0x7f02001c;
+        public static final int healthy_small=0x7f02001d;
+        public static final int heart_small=0x7f02001e;
+        public static final int heartmenu=0x7f02001f;
+        public static final int heartmenu2=0x7f020020;
+        public static final int ic_heart=0x7f020021;
+        public static final int ic_launcher=0x7f020022;
+        public static final int infobutton=0x7f020023;
+        public static final int motivatebutton=0x7f020024;
+        public static final int newicon=0x7f020025;
+        public static final int shadedheart=0x7f020026;
+        public static final int smoking=0x7f020027;
+        public static final int smoking2=0x7f020028;
+        public static final int usbheart=0x7f020029;
     }
     public static final class id {
-        public static final int menu_settings=0x7f070000;
+        public static final int action_settings=0x7f0a0051;
+        public static final int ageStatic=0x7f0a0021;
+        public static final int ageStaticTextField=0x7f0a0022;
+        public static final int ageTextView=0x7f0a0006;
+        public static final int bpMedsStatic=0x7f0a002d;
+        public static final int bpMedsStaticTextField=0x7f0a002e;
+        public static final int bpStatic=0x7f0a0029;
+        public static final int bpStaticTextField=0x7f0a002a;
+        public static final int bpTextView=0x7f0a0008;
+        public static final int cholStatic=0x7f0a0025;
+        public static final int cholStaticTextField=0x7f0a0026;
+        public static final int cholTextView=0x7f0a000a;
+        public static final int editAge=0x7f0a0007;
+        public static final int editBP=0x7f0a0009;
+        public static final int editChol=0x7f0a000b;
+        public static final int editEmailAddr=0x7f0a0033;
+        public static final int editHDL=0x7f0a000d;
+        public static final int editName=0x7f0a0005;
+        public static final int editPhoneNumber=0x7f0a0034;
+        public static final int emailAddrField=0x7f0a0032;
+        public static final int emailContacts=0x7f0a0035;
+        public static final int framInfoText=0x7f0a0019;
+        public static final int genderRadioGroup=0x7f0a000f;
+        public static final int genderStatic=0x7f0a0023;
+        public static final int genderStaticTextField=0x7f0a0024;
+        public static final int genderTextView=0x7f0a000e;
+        public static final int hdlStatic=0x7f0a0027;
+        public static final int hdlStaticTextField=0x7f0a0028;
+        public static final int hdlTextView=0x7f0a000c;
+        public static final int heartView1=0x7f0a004a;
+        public static final int helpStopButton=0x7f0a0049;
+        public static final int imageButton1=0x7f0a004e;
+        public static final int imageButton2=0x7f0a004d;
+        public static final int imageButton3=0x7f0a004c;
+        public static final int imageView1=0x7f0a003a;
+        public static final int imageView11=0x7f0a0043;
+        public static final int imageView2=0x7f0a0042;
+        public static final int imageView25=0x7f0a0045;
+        public static final int imageView29=0x7f0a0047;
+        public static final int infoButton=0x7f0a0015;
+        public static final int isFemale=0x7f0a0011;
+        public static final int isMale=0x7f0a0010;
+        public static final int isOnMedsCheckBox=0x7f0a0012;
+        public static final int isSmokerCheckBox=0x7f0a0013;
+        public static final int listContacts_view=0x7f0a001b;
+        public static final int menu_settings=0x7f0a0052;
+        public static final int myProfileHeading=0x7f0a0001;
+        public static final int myProfileScrollView=0x7f0a0002;
+        public static final int nameField=0x7f0a001e;
+        public static final int nameStatic=0x7f0a001f;
+        public static final int nameStaticTextField=0x7f0a0020;
+        public static final int nameTextView=0x7f0a0004;
+        public static final int pager=0x7f0a0000;
+        public static final int phoneNumberField=0x7f0a0031;
+        public static final int relativeLayout1=0x7f0a004b;
+        public static final int riskScoreDisplay=0x7f0a0016;
+        public static final int riskScoreStatic=0x7f0a002f;
+        public static final int riskScoreStaticTextField=0x7f0a0030;
+        public static final int riskScoreTextView=0x7f0a0003;
+        public static final int scrollView=0x7f0a001d;
+        public static final int scrollView1=0x7f0a0018;
+        public static final int sendEmailButton=0x7f0a0036;
+        public static final int sendTextButton=0x7f0a0037;
+        public static final int sendToInstructions=0x7f0a001c;
+        public static final int shareInfoActivityButton=0x7f0a0017;
+        public static final int smokerStatic=0x7f0a002b;
+        public static final int smokerStaticTextField=0x7f0a002c;
+        public static final int termsBackButton=0x7f0a001a;
+        public static final int termsOfUse=0x7f0a004f;
+        public static final int termsText=0x7f0a0038;
+        public static final int textView1=0x7f0a0039;
+        public static final int textView11=0x7f0a003b;
+        public static final int textView13=0x7f0a003c;
+        public static final int textView2=0x7f0a0050;
+        public static final int textView3=0x7f0a0041;
+        public static final int updateButton=0x7f0a0014;
+        public static final int weblink1=0x7f0a003d;
+        public static final int weblink2=0x7f0a003e;
+        public static final int weblink3=0x7f0a003f;
+        public static final int weblink4=0x7f0a0040;
+        public static final int weblinkAspirin=0x7f0a0044;
+        public static final int weblinkBloodPressure=0x7f0a0046;
+        public static final int weblinkCholesterol=0x7f0a0048;
     }
     public static final class layout {
-        public static final int activity_main=0x7f030000;
+        public static final int abcs_view=0x7f030000;
+        public static final int activity_edit_profile=0x7f030001;
+        public static final int activity_fram_info_dialog=0x7f030002;
+        public static final int activity_select_contact=0x7f030003;
+        public static final int activity_send_to_email=0x7f030004;
+        public static final int activity_terms_of_use=0x7f030005;
+        public static final int fragment_abcs_aspirin_dummy=0x7f030006;
+        public static final int fragment_abcs_aspirin_dummy2=0x7f030007;
+        public static final int fragment_abcs_aspirin_dummy3=0x7f030008;
+        public static final int fragment_abcs_aspirin_dummy4=0x7f030009;
+        public static final int fragment_abcs_aspirin_dummy5=0x7f03000a;
+        public static final int heartgame=0x7f03000b;
+        public static final int heartmenu=0x7f03000c;
+        public static final int splashscreen=0x7f03000d;
     }
     public static final class menu {
-        public static final int activity_main=0x7f060000;
+        public static final int abcs_aspirin=0x7f090000;
+        public static final int activity_add_profile=0x7f090001;
+        public static final int activity_main=0x7f090002;
+        public static final int activity_my_risk=0x7f090003;
+        public static final int fram_info_dialog=0x7f090004;
+        public static final int game_victory=0x7f090005;
+        public static final int terms_of_use=0x7f090006;
+    }
+    public static final class raw {
+        public static final int bleep=0x7f040000;
+        public static final int ekg=0x7f040001;
+        public static final int error=0x7f040002;
+        public static final int gamemusic=0x7f040003;
     }
     public static final class string {
-        public static final int app_name=0x7f040000;
-        public static final int hello_world=0x7f040001;
-        public static final int menu_settings=0x7f040002;
+        public static final int ABCS_Education=0x7f060053;
+        public static final int Aspirin3D=0x7f060056;
+        public static final int AspirinPillsImage=0x7f060057;
+        public static final int Content_Education=0x7f060054;
+        public static final int ResourceLinks=0x7f060055;
+        public static final int action_settings=0x7f06000f;
+        public static final int ageTextView=0x7f06001e;
+        public static final int alert_stopsmoking_message=0x7f06003d;
+        public static final int app_name=0x7f060000;
+        public static final int aspirin1=0x7f060012;
+        public static final int aspirin2=0x7f060013;
+        public static final int back=0x7f06004b;
+        public static final int bloodPressureBasics=0x7f06005b;
+        public static final int bloodPressureImage1Desc=0x7f060059;
+        public static final int bloodPressureImage2Desc=0x7f06005a;
+        public static final int bloodpressure1=0x7f060015;
+        public static final int bloodpressure2=0x7f060016;
+        public static final int bpCheckbox=0x7f060027;
+        public static final int bpStatus=0x7f060028;
+        public static final int bpTextView=0x7f060026;
+        public static final int button1=0x7f060003;
+        public static final int button2=0x7f060004;
+        public static final int button3=0x7f060005;
+        public static final int button4=0x7f060006;
+        public static final int cancel=0x7f06003c;
+        public static final int cholTextView=0x7f060022;
+        public static final int cholesterol1=0x7f060017;
+        public static final int cholesterol2=0x7f060018;
+        public static final int cholesterolCrashCourse=0x7f06005c;
+        public static final int contentDescriptionChol1=0x7f06005d;
+        public static final int contentDescriptionChol2=0x7f06005e;
+        public static final int content_description_ekg=0x7f06001c;
+        public static final int educate=0x7f060014;
+        public static final int education=0x7f060051;
+        public static final int emailButton=0x7f060037;
+        public static final int emailContactButton=0x7f06002c;
+        public static final int emailHint=0x7f060030;
+        public static final int emailTo=0x7f06002b;
+        public static final int framInfoText=0x7f06004e;
+        public static final int fullTerms=0x7f06004a;
+        public static final int genderFemale=0x7f060020;
+        public static final int genderMale=0x7f06001f;
+        public static final int genderTextView=0x7f060021;
+        public static final int hdlTextView=0x7f060023;
+        public static final int hello_world=0x7f060001;
+        public static final int helpStop=0x7f06003e;
+        public static final int infoButtonDescription=0x7f06004c;
+        public static final int mainView=0x7f06004f;
+        public static final int menu_settings=0x7f060002;
+        public static final int motivation=0x7f060052;
+        public static final int myHeart=0x7f060050;
+        public static final int my_link=0x7f060039;
+        public static final int na=0x7f060036;
+        public static final int nameColon=0x7f060031;
+        public static final int nameColonCAPS=0x7f060032;
+        public static final int ok=0x7f06003b;
+        public static final int phoneColon=0x7f060033;
+        public static final int profileHeading=0x7f060035;
+        public static final int resourceTitle1=0x7f060040;
+        public static final int resourceTitle2=0x7f060041;
+        public static final int resourceTitle3=0x7f060042;
+        public static final int resourceTitle4=0x7f060043;
+        public static final int resourceTitleAspirin=0x7f060044;
+        public static final int resourceTitleBloodPressure=0x7f060045;
+        public static final int resourceTitleCholesterol=0x7f060046;
+        public static final int resourceTitleSmoking=0x7f060047;
+        public static final int riskButton=0x7f06002a;
+        public static final int riskScore=0x7f06002e;
+        public static final int sendToInstructionsText=0x7f06002d;
+        public static final int shareButton=0x7f06002f;
+        public static final int smokerCheckbox=0x7f060024;
+        public static final int smokerStatus=0x7f060025;
+        public static final int smoking1=0x7f060019;
+        public static final int smoking2=0x7f06001a;
+        public static final int splash_info=0x7f060011;
+        public static final int splash_title=0x7f06001b;
+        public static final int terms=0x7f060048;
+        public static final int textButton=0x7f060034;
+        public static final int title_activity_abcs_aspirin=0x7f060010;
+        public static final int title_activity_add_profile=0x7f060008;
+        public static final int title_activity_edit_profile=0x7f06001d;
+        public static final int title_activity_fram_info_dialog=0x7f06004d;
+        public static final int title_activity_game_victory=0x7f06003f;
+        public static final int title_activity_heartgame=0x7f060009;
+        public static final int title_activity_my_risk=0x7f060007;
+        public static final int title_activity_select_contact=0x7f06003a;
+        public static final int title_activity_send_to_email=0x7f060038;
+        public static final int title_activity_terms_of_use=0x7f060049;
+        public static final int title_section1=0x7f06000e;
+        public static final int title_section2=0x7f06000d;
+        public static final int title_section3=0x7f06000c;
+        public static final int title_section4=0x7f06000b;
+        public static final int title_section5=0x7f06000a;
+        public static final int updateButton=0x7f060029;
+        public static final int whyAspirin=0x7f060058;
     }
     public static final class style {
+        public static final int ABCS_Text=0x7f080002;
         /** 
         Base application theme, dependent on API level. This theme is replaced
         by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
@@ -49,10 +308,10 @@ public final class R {
     
  API 14 theme customizations can go here. 
          */
-        public static final int AppBaseTheme=0x7f050000;
+        public static final int AppBaseTheme=0x7f080000;
         /**  Application theme. 
  All customizations that are NOT specific to a particular API-level can go here. 
          */
-        public static final int AppTheme=0x7f050001;
+        public static final int AppTheme=0x7f080001;
     }
 }
